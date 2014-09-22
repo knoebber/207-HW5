@@ -12,8 +12,11 @@ public class UtilsExpt
     //BigDecimal first = new BigDecimal(2) ;
     //BigDecimal approx = new BigDecimal (0.0000005) ;
     //BigDecimal answer =  Utils.sqrt(first, approx) ;
-    pen.println(Utils.expt(2, 7)); 
+    CalculatorHW4 calc = new CalculatorHW4();
+    Fraction f1;
+    calc.eval1("r0=1/2+1/2");
     
+ 
     
     pen.close() ;
     

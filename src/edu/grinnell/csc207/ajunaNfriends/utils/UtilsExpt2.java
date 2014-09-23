@@ -2,7 +2,7 @@ package edu.grinnell.csc207.ajunaNfriends.utils;
 
 import java.io.PrintWriter;
 
-public class UtilsExpt
+public class UtilsExpt2
 {
 
   public static void main(String[] args)
@@ -12,8 +12,8 @@ public class UtilsExpt
     //BigDecimal first = new BigDecimal(2) ;
     //BigDecimal approx = new BigDecimal (0.0000005) ;
     //BigDecimal answer =  Utils.sqrt(first, approx) ;
-    CalculatorHW4 calc = new CalculatorHW4();
-    Fraction f1;
+    Calculator calc = new Calculator();
+    //Fraction f1;
     calc.eval1("r0=1/2+1/2");
     
  

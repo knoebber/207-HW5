@@ -74,7 +74,13 @@ public class Fraction
   {
     String str2[] = str.split("/");
     int top = Integer.parseInt(str2[0]);
-    int bottom = Integer.parseInt(str2[1]);
+    int bottom = 1 ; //Automatically set bottom to 1
+    
+    if (str2.length > 1) //If there is a denom, then set the bottom to that
+      {                  //otherwise leave default
+        bottom = Integer.parseInt(str2[1]); 
+      }
+    
     this.num = BigInteger.valueOf(top);
     this.denom = BigInteger.valueOf(bottom);
 
